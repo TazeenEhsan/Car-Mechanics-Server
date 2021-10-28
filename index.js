@@ -83,10 +83,10 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Running');
+    res.send('Running car genius');
 });
 
 
 app.listen(port, () => {
-    console.log('car genius running at', port);
+    console.log('Car genius running at', port);
 })
